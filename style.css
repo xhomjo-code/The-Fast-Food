@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #FF5722;
+    height: 80px;
+    width: 100vw;
+}
+
+.header-1 h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+    .header-1 h2 {
+        font-size: 20px;
+    }
+}
+
+.header-1 ul {
+    display: flex;
+    align-content: center;
+    gap: 20px;
+
+}
+
+.header-1 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-1 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* section-1 */
+.hero {
+    background-position: center center;
+    height: 60vh;
+    width: 100vw;
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    align-content: center;
+    padding: 80px 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+#offer {
+    padding: 15px;
+    margin: 10px;
+    color: #FF5722;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all 1s ease-in-out 0s;
+}
+#offer:hover
+{
+ transform: scale(1.2);
+ box-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua;
+}
+
+.menu {
+
+
+    padding: 50px 30px;
+    text-align: center;
+
+}
+
+.menucontiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    transition: all 1s ease-in-out 0s;
+}
+
+.card h3 {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 19px;
+}
+
+.card span {
+    display: block;
+    color: red;
+    font-size: 20px;
+}
+
+.card button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    color: red;
+
+}
+
+.card button:hover {
+    box-shadow: 0px 0px 10px aqua;
+}
+
+/* sing in section */
+.sing {
+    background-color: red;
+    height: 50vh;
+    width: 100vw;
+    padding: 40px;
+    background-position: center center;
+
+}
+
+.form-continer {
+    max-width: 500px;
+    margin: auto;
+
+
+}
+
+.form-continer input {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-continer button {
+    background: #38bdf8;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: move;
+    margin-left: 200px;
+
+
+}
+
+.sing h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#sucees {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(21, 255, 0);
+    font-weight: 700;
+}
+
+.form-continer input:hover {
+    box-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua;
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+.form-continer button:hover {
+    box-shadow: 0px 0px 10px black, 0px 0px 20px black;
+    transform: scale(1.2);
+
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px black, 0px 0px 20px black;
+    filter: grayscale(100%);
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

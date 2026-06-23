@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fast Food Hangu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Header -->
+      <header>
+        <div class="header-1">
+            <h2>🍔 Fast Food Hub</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sing">sing-in</a></li>
+              
+            </ul>
+        </div>
+        
+        <!-- section-1 -->
+         <section class="hero" id="home">
+            <h2>Delicius Food Deleverd Fast</h2>
+            <p>Fresh burger, chips fries, and tasty pizza</p>
+            <button id="offer">View Offer</button>
+
+         </section>
+      </header>
+      <!-- sing-in section -->
+      <section class="sing" id="sing">
+          <h2>Sing in </h2>
+             <form class="form-continer">
+             <input type="text" placeholder="enter your user name" required>
+             <input type="email" placeholder="enter your in emile" required>
+             <button type="submit">submit</button>
+             </form>
+             <div id="sucees"></div>
+         </section>
+      <!-- manu -->
+       <section class="menu" id="menu">
+        <h2> Our Menu </h2>
+        <div class="menucontiner">
+            <div class="card">
+                 <h3>🍔 Burger</h3>
+                 <p>Jussey beef burger with cheez</p>
+                 <span>$5</span>
+                 <button onclick="OderItem('buger')">Oder</button>
+            </div>
+            <!-- card-2-->
+             <div class="card">
+                <h3>🍕 Pizza</h3>
+                <p>Cheezzy pizza with fresh toping </p>
+                <span>$8</span>
+                <button onclick="OderItem('Pizza')">Oder</button>
+             </div>
+             <!-- card-3 -->
+             <div class="card">
+               <h3>🍟 Fries</h3>
+               <p>Golden crispey franch fries</p>
+               <span>$4</span>
+               <button onclick="OderItem('friez')">Oder</button>
+             </div>
+        </div>
+
+       </section>
+        <footer id="contact">
+        <p>📞 +03329303970 | ✉ info@fastfoodhub.com</p>
+        <p>&copy; 2026 Fast Food Hub</p>
+    </footer>
+   <title>Feedback Form</title>
+   <div>
+ 
+    <script src="js.js"></script>
+</body>
+</html>
